@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(0deg, orange, orangered);
+}
+#reg-no{
+    margin-left: 80%;
+}
+.bg-style{
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px purple;
+}
+header,footer{
+    width: 92%;
+    height: 150px;
+    background-color: coral;
+    position: relative;
+    text-align: center;
+}
+header h1{
+    color: white;
+    font-size: 64px;
+    text-shadow: 0px 0px 5px black;
+}
+#logo{
+    width: 128px;
+    height: 128px;
+    padding: 5px;
+    border: 5px solid goldenrod;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 2%;
+}
+main{
+    height: 600px;
+    position: relative;
+    background-color: aquamarine;    
+}
+aside{
+    width: 20%;
+    height: 550px;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+aside a{
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+}
+section{
+    width: 65%;
+    height: 550px;
+    background-color: orange;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+section article{
+    width: 75%;
+    text-align: justify;
+}
+#director{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 3px aqua;
+}
+figure{
+    width: 500px;
+    height: 300px;
+    border: 2px solid aqua;
+    display: inline-block;
+}
+figure img{
+    width: inherit; 
+    border-radius: 10px;
+}
+figure figcaption{
+    margin: 1%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+#contact-us{
+    width: 65%;
+    height: 70%;
+    margin: 0;
+    display: block;
+    background-color: lightcyan;
+    position: relative;
+}
+#contact-details{
+    position: absolute;
+    left: 2%;
+    text-align: left;
+}
+#Social-Media{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+a img{
+    width: 64px;
+    height: 64px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: azure;
+    border: 5px solid wheat;
+}
+a img:hover{
+    border: 5px solid aquamarine;
+    box-shadow: 0 0 5px yellow;
+}
+#user{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: beige;
+    text-align: center;
+}
+#user a{
+    display: block;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, orangered, orange);
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
