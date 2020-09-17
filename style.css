@@ -146,5 +146,51 @@ a img:hover{
     color: whitesmoke;
     font-size: 20px;
 }
-
+/* Courses */
+#Courses h1{
+    text-align: center;
+    text-decoration: underline 3px;
+}
+.Diploma, .Certificate-Course, .Programming{
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 0 0 5px red;
+    border-radius: 20px;
+    display: inline-block;
+}
+/* Certificate Courses */
+.h1-center{
+    text-align: center;
+}
+table{
+    width: 80%;
+    font-size: 28px;
+    margin: auto;
+    padding: 2%;
+}
+th{
+    text-decoration: underline red;
+}
+form,input{
+    font-size: 28px;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+}
+input[type=submit]{
+    padding: 10px;
+    background-color: red;
+}
+/* Bihar Government Degree */
+#Bihar-GDC a{
+    display: block;
+    margin: 4%;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
 
